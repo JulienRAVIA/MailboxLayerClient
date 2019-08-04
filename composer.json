@@ -1,7 +1,9 @@
 {
-    "name": "xylis/mailboxlayer-client-api",
-    "description": "MailboxLayer Client API for validating emails",
+    "name": "xylis/mailboxlayer-client",
+    "description": "MailboxLayer API Client for validating emails",
     "type": "library",
+    "homepage": "https://github.com/JulienRAVIA/MailboxLayerClient",
+    "license": "GPL",
     "keywords": [
         "xylis",
         "julien ravia",
