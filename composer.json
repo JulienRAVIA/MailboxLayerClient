@@ -3,7 +3,7 @@
     "description": "MailboxLayer API Client for validating emails",
     "type": "library",
     "homepage": "https://github.com/JulienRAVIA/MailboxLayerClient",
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "keywords": [
         "xylis",
         "julien ravia",
