@@ -73,7 +73,7 @@ class Email
     /**
      * @param string $domain
      */
-    public function setDomain(string $domain)
+    public function setDomain(?string $domain)
     {
         $this->domain = $domain;
     }
@@ -89,7 +89,7 @@ class Email
     /**
      * @param bool $mxFound
      */
-    public function setMxFound(bool $mxFound)
+    public function setMxFound(?bool $mxFound)
     {
         $this->mxFound = $mxFound;
     }
@@ -178,9 +178,9 @@ class Email
      *
      * @return string
      */
-    public function getDomain(): string
+    public function getDomain(): ?string
     {
-        return (string) $this->domain;
+        return $this->domain;
     }
 
     /**
@@ -214,7 +214,7 @@ class Email
      */
     public function isMxFound(): bool
     {
-        return (bool) $this->mxFound;
+        return ($this->mxFound === null) ? false : $this->mxFound;
     }
 
     /**

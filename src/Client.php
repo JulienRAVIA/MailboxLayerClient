@@ -15,7 +15,7 @@ use JamesHalsall\Hydrator\ObjectSetterFromArrayHydrator;
  * @see https://mailboxlayer.com/documentation#rate_limits
  *
  */
-class Validator
+class Client
 {
     /**
      * @var string $apiKey
@@ -61,7 +61,7 @@ class Validator
      * @return $this
      * @throws Exception
      */
-    public function validate(string $emailAddress, bool $bypassFilterValidation = false): Email
+    public function validate(string $emailAddress, bool $bypassFilterValidation = false)
     {
         // We check before making any request if email address is valid email address
         // useful to avoid useless requests
