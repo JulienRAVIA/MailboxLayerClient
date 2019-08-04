@@ -14,8 +14,7 @@
         "apigen/apigen": "dev-master",
         "phpunit/phpunit": "^8.3",
         "roave/better-reflection": "dev-master",
-        "squizlabs/php_codesniffer": "3.*",
-        "symfony/var-dumper": "^4.3"
+        "squizlabs/php_codesniffer": "3.*"
     },
     "authors": [
         {
@@ -41,6 +40,11 @@
         "check-style": "phpcs src tests",
         "fix-style": "phpcbf src tests",
         "generate-docs": "apigen generate src --destination docs"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     },
     "config": {
         "sort-packages": true
