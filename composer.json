@@ -6,9 +6,9 @@
     "license": "GPL-3.0-or-later",
     "keywords": [
         "xylis",
-        "julien ravia",
         "mailboxlayer",
-        "mail validator"
+        "validator",
+        "api client"
     ],
     "require-dev": {
         "apigen/apigen": "dev-master",
@@ -30,7 +30,7 @@
         }
     },
     "require": {
-        "php": "~7.1",
+        "php": "^7.1",
         "ext-curl": "*",
         "ext-json": "*",
         "jameshalsall/object-hydrator": "^1.2"
