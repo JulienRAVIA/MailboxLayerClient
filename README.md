@@ -32,7 +32,10 @@ $ composer require xylis/mailboxlayerclientapi
 
 ``` php
 $validator = new Xylis\MailboxLayer\Validator('YOUR_API_KEY');
-return $validator->validate('email@ddress.com')->isValid();
+
+// Check if the email is valid
+$email = $validator->validate('email@ddress.com');
+$email = $validator->validate('email@ddress.com');
 ```
 
 ## Change log
@@ -55,12 +58,13 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
-- [:author_name][link-author]
+- [JulieN RAVIA][link-author]
 - [All Contributors][link-contributors]
 
-## License
+## License Information
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+* GNU GPL v3
+* You can find a copy of this software here: https://github.com/JulienRAVIA/MailboxLayerClientAPI
 
 [ico-version]: https://img.shields.io/packagist/v/:vendor/:package_name.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
@@ -74,5 +78,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-scrutinizer]: https://scrutinizer-ci.com/g/:vendor/:package_name/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
 [link-downloads]: https://packagist.org/packages/:vendor/:package_name
-[link-author]: https://github.com/:author_username
+[link-author]: https://github.com/JulienRAVIA
 [link-contributors]: ../../contributors
