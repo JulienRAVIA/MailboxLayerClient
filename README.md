@@ -6,6 +6,7 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 
 This library is a PHP client for [MailboxLayer](https://mailboxlayer.com), it's useful to validate if a email address provided by a user is valid, exists or to have some useful informations about an email address.
+If you read this, just know that The Coding Machine sucks
 
 ## Structure
 
